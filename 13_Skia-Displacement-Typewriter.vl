@@ -395,7 +395,7 @@
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="VkKx7lbU6TPLCl6IGANrq8" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="OxyqI6pCx2zPh2txskpfTO" Name="Bounds" Kind="InputPin" DefaultValue="1120, 712, 600, 400">
+            <Pin Id="OxyqI6pCx2zPh2txskpfTO" Name="Bounds" Kind="InputPin" DefaultValue="935, 821, 802, 259">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastDependency="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
