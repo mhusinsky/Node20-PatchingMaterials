@@ -176,7 +176,7 @@
             <Pin Id="TecCuLV5E8PO9aYQ1AYfeg" Name="Type" Kind="InputPin" />
             <Pin Id="GvsMGS0MwOCN3ta63hq1Qs" Name="Scale" Kind="InputPin" />
             <Pin Id="Likf0V5uYgtOywc3mJaDVC" Name="Offset" Kind="InputPin" />
-            <Pin Id="BWkHVE4WBVjNzyXmE2XQqD" Name="Z" Kind="InputPin" />
+            <Pin Id="BWkHVE4WBVjNzyXmE2XQqD" Name="Z" Kind="InputPin" DefaultValue="2.19" />
             <Pin Id="Fb3h7PahhX1N9yMuEhC5Dk" Name="Output Size" Kind="InputPin" />
             <Pin Id="PzA2jaTCRmtOXiDl8cJkVp" Name="Output Format" Kind="InputPin" IsHidden="true" />
             <Pin Id="RsE7pmiJKFVOC83aF3Y2d6" Name="Render Format" Kind="InputPin" IsHidden="true" />
@@ -519,11 +519,22 @@
             <Pin Id="P42OHBHQbBPLN4IAtudbTq" Name="Input" Kind="StateInputPin" />
             <Pin Id="HP1W0ujH9p0M0WilZ1Hvt4" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="OubjrxvrGzYOLka7bVrucB" Comment="Radius" Bounds="68,860,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="OubjrxvrGzYOLka7bVrucB" Comment="Radius" Bounds="82,860,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="18,851,54,19" Id="D6TO0viKdDkNbC9Y8vd4bi">
+            <p:NodeReference LastCategoryFullName="3D.Matrix" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="Matrix" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Rotation" />
+            </p:NodeReference>
+            <Pin Id="HDczkmPR8AqL0f2eZWWjoz" Name="Pitch" Kind="InputPin" />
+            <Pin Id="MKUJwaOWt6WLFu0wlDA0aM" Name="Yaw" Kind="InputPin" DefaultValue="0.5" />
+            <Pin Id="KrizStmZZk1L22nykC1t7N" Name="Roll" Kind="InputPin" />
+            <Pin Id="TV5zSDqiKDxO4SIFkx1oqh" Name="Result" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="T1KXdi5HHeTLPtmEKqJ0fa" Name="Create" />
         <Patch Id="ERHi46KEyBDMvgaLTgSVEA" Name="Update" />
@@ -569,6 +580,7 @@
         <Link Id="O5lWeKvrR6bPYVjcpt77tJ" Ids="HXrN22qQeONLHGXwRCJeND,P42OHBHQbBPLN4IAtudbTq" />
         <Link Id="VblpAdjqh5xNm5aVSKhC7W" Ids="HP1W0ujH9p0M0WilZ1Hvt4,N1FxTdS2mv4QR0JW2M5SUo" />
         <Link Id="QgJCXEwFrazLWjHh0KvBqt" Ids="OubjrxvrGzYOLka7bVrucB,KX3NacIaIQTNH11FHbg2E2" />
+        <Link Id="F4B0ifr64krOQoG3sK1aEO" Ids="TV5zSDqiKDxO4SIFkx1oqh,TOaRxAuUAuiN9Bk9vF62Y0" />
       </Patch>
     </Node>
   </Patch>

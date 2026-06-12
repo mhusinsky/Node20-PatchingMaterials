@@ -394,7 +394,7 @@
             <Pin Id="DxpChiyUIr9Pq623QNTnSr" Name="Scale" Kind="InputPin" IsHidden="true" />
             <Pin Id="I4RpwyZtO8iP8ciNYawjOf" Name="Offset" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="Et7ciBMW3tcOEc935HBxYd" Comment="Intensity" Bounds="492,607,35,15" ShowValueBox="true" isIOBox="true" Value="0.114">
+          <Pad Id="Et7ciBMW3tcOEc935HBxYd" Comment="Intensity" Bounds="492,607,35,15" ShowValueBox="true" isIOBox="true" Value="0.15">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -469,6 +469,11 @@
             <Pin Id="MWBpzKA6bGzLMS6oooqyrG" Name="Enabled" Kind="InputPin" />
             <Pin Id="FEY7JZAZp07NOlrH3WH4Ho" Name="Output" Kind="OutputPin" />
           </Node>
+          <Pad Id="FnfTAvHlYlHQVFeCPES27N" Comment="Radius" Bounds="102,660,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="JvGRH0p3Me6QRMTykYfquM" Name="Create" />
         <Patch Id="Ik211EWiBsHNWvxt1OWWid" Name="Update" />
@@ -510,6 +515,7 @@
         <Link Id="EVeyYA9mYNbLXfGQPVqQl0" Ids="GUrdqRwjkpIMGfjXernfKZ,MYKiZpARsAAM268ejNyWgw" />
         <Link Id="FAOZrPlvkShLRg1iYWsA5O" Ids="FEY7JZAZp07NOlrH3WH4Ho,SnlG54iSFJzPrfYJmJzGVt" />
         <Link Id="ROx7epDMMJ7OOJI64ushvb" Ids="Et7ciBMW3tcOEc935HBxYd,ShAMtHbqWdtOqt8ekvPWn8" />
+        <Link Id="C1VmkJIpVHtMtCfPtAdRq2" Ids="FnfTAvHlYlHQVFeCPES27N,QR1RtLpJQq2MuB9FaiiTEP" />
       </Patch>
     </Node>
   </Patch>

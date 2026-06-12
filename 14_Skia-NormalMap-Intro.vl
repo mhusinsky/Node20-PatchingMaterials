@@ -227,7 +227,7 @@
             <Pin Id="S8FxaytMyqrMHOFriVp8dk" Name="Resource Format" Kind="OutputPin" />
             <Pin Id="SUMBc6UCUa7L2LXkcYfA7m" Name="Exists" Kind="OutputPin" />
           </Node>
-          <Node Bounds="261,190,85,19" Id="KFW7yDrjR03QGLUkg4MuJF">
+          <Node Bounds="257,190,85,19" Id="KFW7yDrjR03QGLUkg4MuJF">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Rectangle" />
@@ -241,7 +241,7 @@
             <Pin Id="AZm5utI9GFDLpDs5QSDgdz" Name="Enabled" Kind="InputPin" />
             <Pin Id="BkaU1ptagbhO3X9mIviUZB" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="261,230,125,19" Id="FAG3B0jBzx9NFLd81F3QQh">
+          <Node Bounds="257,230,125,19" Id="FAG3B0jBzx9NFLd81F3QQh">
             <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastDependency="VL.Stride.Windows.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="SkiaTexture" />
@@ -261,7 +261,7 @@
             <Pin Id="JusjxVAv80cPCGOfW4bl6P" Name="Output" Kind="OutputPin" />
             <Pin Id="JthxnWuEX8hMECoGbL9so0" Name="Use Dedicated Device" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="Pj5QQZ6R4nCLh7aGcsohxS" Comment="Size" Bounds="283,129,35,28" ShowValueBox="true" isIOBox="true" Value="0.37, 0.37">
+          <Pad Id="Pj5QQZ6R4nCLh7aGcsohxS" Comment="Size" Bounds="279,129,35,28" ShowValueBox="true" isIOBox="true" Value="0.37, 0.37">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>

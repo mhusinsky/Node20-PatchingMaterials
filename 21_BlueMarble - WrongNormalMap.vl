@@ -678,7 +678,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="317,92,110,19" Id="HefVkCA8xIvN6QiraKKrlX">
+          <Node Bounds="321,92,110,19" Id="HefVkCA8xIvN6QiraKKrlX">
             <p:NodeReference LastCategoryFullName="Stride.Assets" LastDependency="VL.Stride.Assets.Windows.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FileTextureGrayscale" />
@@ -697,7 +697,7 @@
             <Pin Id="BmkDonGfRQWLJzSrbuZIDB" Name="Already Loaded" Kind="OutputPin" />
             <Pin Id="SEwiwl2Ke7ULFGcKs9444H" Name="Url" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Node Bounds="317,142,205,19" Id="PFbeeZRpQs8PmrKd1nWZI7">
+          <Node Bounds="321,142,205,19" Id="PFbeeZRpQs8PmrKd1nWZI7">
             <p:NodeReference LastCategoryFullName="Stride.Textures.TextureFX" LastDependency="VL.Stride.Rendering.EffectShaderNodes">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="HSCB" />
@@ -718,7 +718,7 @@
             <Pin Id="QXi13QBRyLGNaj6qPO5V9R" Name="Render Format" Kind="InputPin" IsHidden="true" />
             <Pin Id="RwvbbRTDvR0Ni1L39N7VyZ" Name="Apply" Kind="InputPin" />
           </Node>
-          <Pad Id="LAVisc9JkC3MxvZT8IokIK" Comment="Contrast" Bounds="430,130,35,15" ShowValueBox="true" isIOBox="true" Value="-0.75">
+          <Pad Id="LAVisc9JkC3MxvZT8IokIK" Comment="Contrast" Bounds="434,130,35,15" ShowValueBox="true" isIOBox="true" Value="-0.75">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -774,7 +774,7 @@
             <Pin Id="L4j0yWg01FeNLXN6PabQHM" Name="Enabled" Kind="InputPin" />
             <Pin Id="GWyLF4DKLOdMhEawixGaHr" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="QWhv7b8t6VLNqCCy1wjGH1" Comment="Path" Bounds="319,69,140,15" ShowValueBox="true" isIOBox="true" Value="Assets\PaintedMetal 004\PaintedMetal004_2K_Roughness.jpg">
+          <Pad Id="QWhv7b8t6VLNqCCy1wjGH1" Comment="Path" Bounds="323,69,140,15" ShowValueBox="true" isIOBox="true" Value="Assets\PaintedMetal 004\PaintedMetal004_2K_Roughness.jpg">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -784,6 +784,8 @@
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
+          <ControlPoint Id="UtsUzM3YH2iP0E6rK3LWtl" Bounds="411,228" />
+          <ControlPoint Id="IuTGYj76fFSOeNuJztlmUR" Bounds="391,228" />
         </Canvas>
         <Patch Id="JvGRH0p3Me6QRMTykYfquM" Name="Create" />
         <Patch Id="Ik211EWiBsHNWvxt1OWWid" Name="Update" />
@@ -837,10 +839,10 @@
         <Link Id="PKOZIosTKWjPVbTs3qh2l3" Ids="LAVisc9JkC3MxvZT8IokIK,GocjqS7L7VyMy6wwQXAkgi" />
         <Link Id="U934cXdrIvyQVFzDH5s0sC" Ids="ICBlIXOzN6kO8o9ZK9aYY2,FRF0wtSRX9pOQay0vR6dxk" />
         <Link Id="TPLotRTcWSqPNqi3bOi6e4" Ids="IkoAuQF1DQ5QHZZ2VKtNVd,DsH7ossP5hePdZ5H9BQrNj" />
-        <Link Id="DCeV3qDrMmLLWM7xT2e8mT" Ids="SbdAaTphR3EPRjBdThgj6s,Qh9nwgiVrjpM721uez9rH2" />
+        <Link Id="DCeV3qDrMmLLWM7xT2e8mT" Ids="SbdAaTphR3EPRjBdThgj6s,IuTGYj76fFSOeNuJztlmUR,Qh9nwgiVrjpM721uez9rH2" />
         <Link Id="DadGK8VdjNtMbm0c4IPOuR" Ids="SbdAaTphR3EPRjBdThgj6s,OARpJHKen2JNzcIZwiWm7H" />
         <Link Id="N8fBk5mZfX7M6ODKgObxti" Ids="QWhv7b8t6VLNqCCy1wjGH1,K589UDdIAbNPkRbcVuYZur" />
-        <Link Id="LFsqS47f2NRMumARIxT0C1" Ids="GWyLF4DKLOdMhEawixGaHr,APZCeo79bKiOAXv7pdcyoo" />
+        <Link Id="LFsqS47f2NRMumARIxT0C1" Ids="GWyLF4DKLOdMhEawixGaHr,UtsUzM3YH2iP0E6rK3LWtl,APZCeo79bKiOAXv7pdcyoo" />
         <Link Id="IPMCMPF5eVSPlUKxKV5wnw" Ids="MkuHmgVVxHwQXuDBU6LH2x,OM2ki57m2OlPoNoSWKDgwL" />
         <Link Id="BxvfSJ2Q2oAPQaPnSpexLb" Ids="S0HSm4GMXOBQTlQtmvij3c,Sj3I2ypkm9yNaxoiMBmLVG" />
       </Patch>

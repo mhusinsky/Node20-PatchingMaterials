@@ -606,7 +606,7 @@
             <Pin Id="C7qgniJxFj4M5PxTsxoxL8" Name="Normal Map" Kind="InputPin" />
             <Pin Id="Mjf9toRiXEtOwwv5AOv0Bl" Name="Scale &amp; Offset" Kind="InputPin" />
             <Pin Id="UYf2UwHqAZVLms03AfBa7y" Name="Reconstruct Z" Kind="InputPin" DefaultValue="True" />
-            <Pin Id="LeWHuNYrYmnNTzq8rGwHSA" Name="Enabled" Kind="InputPin" />
+            <Pin Id="LeWHuNYrYmnNTzq8rGwHSA" Name="Enabled" Kind="InputPin" DefaultValue="True" />
             <Pin Id="VRXqp2Urn20OscSfwczjGC" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="MbVGciq6yQUNdFHNka7r4x" Comment="Radius" Bounds="202,521,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">

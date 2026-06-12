@@ -76,7 +76,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="Jqh9D3Q4UiUOFAKeq6PkFl" Name="Bounds" Kind="InputPin" DefaultValue="1000, 40, 786, 432">
+            <Pin Id="Jqh9D3Q4UiUOFAKeq6PkFl" Name="Bounds" Kind="InputPin" DefaultValue="1000, 40, 786, 677">
               <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -200,7 +200,7 @@
             <Pin Id="Txaka89wLLfPaGRoMVsuz5" Name="Result" Kind="OutputPin" />
             <Pin Id="Cait0eELWytLp7sizUDuWX" Name="Input 3" Kind="InputPin" />
           </Node>
-          <Pad Id="VvvZoq9zjiBNUwrqzGb9u5" Bounds="774,523,34,130" ShowValueBox="true" isIOBox="true" Value="0, 0, 0, 2, 0, 0, 0">
+          <Pad Id="VvvZoq9zjiBNUwrqzGb9u5" Bounds="774,523,34,130" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 2, 0, 0, 0">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.Collections.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
